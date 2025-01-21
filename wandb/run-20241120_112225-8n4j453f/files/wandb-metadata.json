@@ -1,0 +1,38 @@
+{
+  "os":  "macOS-14.2.1-arm64-arm-64bit",
+  "python":  "3.9.13",
+  "startedAt":  "2024-11-20T16:22:25.398113Z",
+  "program":  "/Users/rahatibnrafiq/research/research/gofundme/single_feature_title.ipynb",
+  "git":  {
+    "remote":  "https://github.com/RahatIbnRafiq/gofundme.git",
+    "commit":  "8d1b3c551557512d9493815cc23feb59019bc60e"
+  },
+  "email":  "highlander.rahat@gmail.com",
+  "root":  "/Users/rahatibnrafiq/research/research/gofundme",
+  "host":  "Rahats-MacBook-Pro.local",
+  "username":  "rahatibnrafiq",
+  "executable":  "/Users/rahatibnrafiq/miniforge3/envs/nlp/bin/python",
+  "codePathLocal":  "single_feature_title.ipynb",
+  "cpu_count":  10,
+  "cpu_count_logical":  10,
+  "disk":  {
+    "/":  {
+      "total":  "1995218165760",
+      "used":  "387355521024"
+    }
+  },
+  "memory":  {
+    "total":  "68719476736"
+  },
+  "cpu":  {
+    "count":  10,
+    "countLogical":  10
+  },
+  "apple":  {
+    "name":  "Apple M1 Max",
+    "ecpuCores":  2,
+    "pcpuCores":  8,
+    "gpuCores":  32,
+    "memoryGb":  64
+  }
+}
