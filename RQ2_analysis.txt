@@ -1,0 +1,57 @@
+
+
+Emotionally Charged vs Neutral Counts:
+False    13977
+True      8016
+Name: EmotionallyCharged, dtype: int64
+
+Success Rates by Emotionally Charged Category:
+EmotionallyCharged
+False    21.843028
+True     23.216068
+Name: success, dtype: float64
+
+
+Chi-Square Test for Independence
+Chi2 Statistic: 5.4562, p-value: 0.0195, Degrees of Freedom: 1
+Expected Frequency Table:
+ [[10854.05278952  3122.94721048]
+ [ 6224.94721048  1791.05278952]]
+
+
+
+Logistic Regression Results:
+                           Logit Regression Results                           
+==============================================================================
+Dep. Variable:                success   No. Observations:                21993
+Model:                          Logit   Df Residuals:                    21990
+Method:                           MLE   Df Model:                            2
+Date:                Mon, 03 Feb 2025   Pseudo R-squ.:                 0.01833
+Time:                        17:25:22   Log-Likelihood:                -11469.
+converged:                       True   LL-Null:                       -11683.
+Covariance Type:            nonrobust   LLR p-value:                 1.020e-93
+======================================================================================
+                         coef    std err          z      P>|z|      [0.025      0.975]
+--------------------------------------------------------------------------------------
+Intercept             -1.0812      0.023    -47.143      0.000      -1.126      -1.036
+EmotionallyCharged     0.1205      0.034      3.565      0.000       0.054       0.187
+GoalAmount          -1.81e-05   1.19e-06    -15.208      0.000   -2.04e-05   -1.58e-05
+
+
+Odds Ratio for Emotionally Charged Campaigns: 1.1281
+
+Cohen's d Effect Size: 0.0329
+
+
+
+
+
+
+
+
+
+
+
+
+
+
